@@ -12,7 +12,7 @@ const Home = () => {
         <Jumbotron
             header="Hi! My name is Levi!"
             content="In this activity, I applied CSS, React Bootstrap technology and React Router. Learn more about what happened during my weekend!"
-            url="saturday"
+            url="/ReactJSCSS03072022/saturday"
         />
     </Container>
     
