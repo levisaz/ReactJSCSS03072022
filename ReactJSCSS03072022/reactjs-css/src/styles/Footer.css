@@ -1,0 +1,8 @@
+.footer-copyright,
+.footer-copyright a,
+.footer-copyright a:visited,
+.footer-copyright a:hover,
+.footer-copyright a:hover {
+    text-decoration: none !important;
+    color: white!important;
+}
