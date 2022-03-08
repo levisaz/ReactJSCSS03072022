@@ -1,4 +1,5 @@
 import React from 'react'
+import '../styles/TopNav.css'
 import {Navbar, Container, Nav, NavDropdown} from 'react-bootstrap';
 import { Outlet, Link } from "react-router-dom";
 import ReactLogo from '../logo.svg'

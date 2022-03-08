@@ -2,6 +2,8 @@
 .col2 .card {
     flex-direction: row!important;
     width: 100%!important;
+    /* margin-left: 5rem;
+    margin-right: 5rem; */
 }
 
 .col1 .card img,
@@ -9,11 +11,21 @@
     height: auto!important;
     width: 100%;
     min-width: 250px;
-    max-height: 400px;
+    max-width: 300px;
+    max-height: 200px;
+}
+
+.col1 .card {
+    margin-left: 7rem!important;
+}
+
+.col2 .card {
+    margin-right: 7rem!important;
 }
 
 .jumbotron {
     padding: 5px;
+    text-align: center;
 }
 
 @media (max-width: 575.98px) {
@@ -25,4 +37,16 @@
         flex-direction: column!important;
         width: 100%!important;
     }
+}
+
+@media (max-width: 1198px) {
+    .col1 .card,
+    .col2 .card {
+        margin: 0!important;
+    }
+}
+
+.page3 h5 {
+    margin-bottom: 5rem;
+    margin-top: 5rem;
 }

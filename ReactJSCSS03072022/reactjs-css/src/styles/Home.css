@@ -1,3 +1,19 @@
-.jumbotron-container {
+/* .jumbotron-container {
     margin-top: 5rem;
+} */
+
+.linkedin-btn {
+    border-style: none!important;
+    box-shadow: none !important;
+    padding-left: 0!important;
+    margin-bottom: 10px;
+}
+
+.linkedin-btn img {
+    height: auto;
+    width: 30px !important;
+}
+
+.linkedin-btn img:hover {
+    transform: scale(1.3);
 }

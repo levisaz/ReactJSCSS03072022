@@ -15,14 +15,14 @@ const Page3 = () => {
 
         <JumbotronNobtn  
             header="Chill Day"
-            content="I decided that in this day, I won't worry about school and ojt requirements. Rest is essential. Dsurb."
+            content="I decided that in this day, I won't worry about school and ojt requirements. Rest is essential."
             content2="I did my morning routine and later that day decided to buy iced coffee before going to my girlfriend's house to relax and watch a netflix movie. At night we cooked fishcake with gochujang (red chili paste). When I got home, I played valorant with my friends until 2AM before going to sleep."
         />
       </Row>
 
       <Row>
       <div>
-          <h5 className="mb-5 d-flex justify-content-center text-center">Since that pretty much sums up my Sunday, let me share to you my favorite characters in Valorant.</h5>
+          <h5 className="d-flex justify-content-center text-center">Since that pretty much sums up my Sunday, let me share to you my favorite characters in Valorant.</h5>
         </div>
         <Col xl={6} className="col1">
         <Row className="mx-3 mb-5">

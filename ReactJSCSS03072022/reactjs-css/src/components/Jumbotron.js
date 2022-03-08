@@ -9,7 +9,7 @@ const Jumbotron = (props) => {
             <hr/>
             <p>{props.content}</p>
             
-            <a href={props.url} className="btn btn-primary">Learn More</a>
+            <a href={props.url} className="btn btn-primary">Go to my Saturday!</a>
         </div>
     </div>
   )
