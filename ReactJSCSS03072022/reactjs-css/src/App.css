@@ -2,6 +2,16 @@ body {
     font-family: 'Open Sans', sans-serif;
 }
 
+body p,
+.nav-link,
+.navbar-brand {
+    font-size: 1.3rem!important;
+}
+
+.h5 {
+    font-size: 1.5rem!important;
+}
+
 .App {
     text-align: center;
 }

@@ -2,7 +2,7 @@ import React from 'react'
 import {Container, Row, Col } from 'react-bootstrap'
 import JumbotronNobtn from '../components/JumbotronNobtn'
 import Cards from '../components/Cards'
-import CardsRightImg from '../components/CardsRightImg'
+//import CardsRightImg from '../components/CardsRightImg'
 import '../styles/Page3.css'
 const Page3 = () => {
   return (
@@ -39,7 +39,7 @@ const Page3 = () => {
 
           <Row className="mx-3 mb-5">
             <Container className="d-flex justify-content-center p-0">
-              <CardsRightImg
+              <Cards
                 img ="https://www.nme.com/wp-content/uploads/2020/07/072220-Raze-Valorant-Riot-Games.jpg"
                 title = "Raze"
                 description = "Raze explodes out of Brazil with her big personality and big guns. With her blunt-force-trauma playstyle, she excels at flushing entrenched enemies and clearing tight spaces with a generous dose of “boom.”"
@@ -66,7 +66,7 @@ const Page3 = () => {
 
           <Row className="mx-3 mb-5">
             <Container className="d-flex p-0">
-              <CardsRightImg
+              <Cards
                   img ="https://images.contentstack.io/v3/assets/bltb6530b271fddd0b1/blt91fb161316bbb88b/6179d200ece6b40b35072b7a/Chamber-TRAILER-Article-Banner.jpg?auto=webp&disable=upscale&height=381"
                   title = "Chamber"
                   description = "Well dressed and well armed, French weapons designer Chamber expels aggressors with deadly precision. He leverages his custom arsenal to hold the line and pick off enemies from afar, with a contingency built for every plan."

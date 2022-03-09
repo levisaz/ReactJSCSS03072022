@@ -11,7 +11,7 @@ const Home = () => {
         <a className="btn linkedin-btn" href="https://www.instagram.com/leviisazon/" target="_blank" rel="noreferrer"><img src={Instagram} alt="" /></a>
         <Jumbotron
             header="Hi! My name is Levi!"
-            content="In this activity, I applied CSS, React Bootstrap technology and React Router. Learn more about what happened during my weekend!"
+            content="In this activity, I applied CSS, React Bootstrap technology, React Router, and Animate on Scroll. Learn more about what happened during my weekend!"
             url="/saturday"
         />
     </Container>
