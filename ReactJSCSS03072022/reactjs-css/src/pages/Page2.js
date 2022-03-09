@@ -5,7 +5,7 @@ import CardNoBtnImg from '../components/CardNoBtnImg'
 import '../styles/Page2.css'
 const Page2 = () => {
   return (
-    <Container className="page2">
+    <Container className="page2" data-aos="zoom-in">
     
       
       <Row>

@@ -6,7 +6,7 @@ import CardsRightImg from '../components/CardsRightImg'
 import '../styles/Page3.css'
 const Page3 = () => {
   return (
-    <Container fluid className="page3 mx-10">
+    <Container fluid className="page3 mx-10" data-aos="zoom-in">
     
       <Row className="mb-5">
         <div>

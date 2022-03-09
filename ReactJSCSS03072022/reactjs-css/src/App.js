@@ -10,7 +10,13 @@ import Home from './pages/Home'
 import Page2 from './pages/Page2'
 import Page3 from './pages/Page3'
 
+/* aos */
+/* import useEffect from 'react'
+import Aos from 'aos'; */
+import 'aos/dist/aos.css';
+
 function App() {
+  
   return (
     <>
       <BrowserRouter basename={process.env.PUBLIC_URL}>

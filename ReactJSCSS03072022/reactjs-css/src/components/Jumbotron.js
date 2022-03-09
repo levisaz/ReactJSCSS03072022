@@ -1,4 +1,5 @@
 import React from 'react'
+import { Link } from "react-router-dom";
 
 /* props for modifiable jumbotron content */
 const Jumbotron = (props) => {
@@ -9,7 +10,7 @@ const Jumbotron = (props) => {
             <hr/>
             <p>{props.content}</p>
             
-            <a href={props.url} className="btn btn-primary">Go to my Saturday!</a>
+            <Link to={props.url} className="btn btn-primary">Go to my Saturday!</Link>
         </div>
     </div>
   )
